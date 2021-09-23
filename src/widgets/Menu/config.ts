@@ -116,15 +116,26 @@ export const links = [
 export const socials = [
 
   {
+    label: "Facebook",
+    icon: "FacebookIcon",
+    href:"https://www.facebook.com/EchangyExchange/" //  "https://twitter.com/goosedefi",
+  },
+  
+  {
+    label: "Medium",
+    icon: "MediumIcon",
+    href: "https://medium.com/@EchangyExchange" // "https://www.reddit.com/r/GooseFinanceofficial",
+  },
+  {
     label: "Twitter",
     icon: "TwitterIcon",
-    href:"" //  "https://twitter.com/goosedefi",
+    href:"https://twitter.com/EchangyExchange" //  "https://twitter.com/goosedefi",
   },
   
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "" // "https://www.reddit.com/r/GooseFinanceofficial",
+    href: "https://www.reddit.com/user/EchangyExchange" // "https://www.reddit.com/r/GooseFinanceofficial",
   },
   {
     label: "Telegram",
@@ -132,7 +143,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "" // "https://t.me/goosedefi",
+        href: "https://t.me/echangyexchange" // "https://t.me/goosedefi",
       },
       // {
       //   label: "Bahasa Indonesia",

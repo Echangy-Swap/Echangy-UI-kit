@@ -23,6 +23,10 @@ const Container = styled.div`
   padding: 8px 4px;
   background: ${({ theme }) => theme.colors.sidebar};
   border-top: solid 2px rgba(133, 133, 133, 0.1);
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 const PriceLink = styled.a`
@@ -122,7 +126,7 @@ const PanelFooter: React.FC<Props> = ({
                 <Flex justifyContent="space-around" style={{width:"100%"}}>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "35px", color: "textSubtle", style: { cursor: "pointer" } };
+            const iconProps = { width: "28px", color: "textSubtle", style: { cursor: "pointer" } };
             const mr = index < socials.length - 1 ? "8px" : 0;
             if (social.items) {
               return (
