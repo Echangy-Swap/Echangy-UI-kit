@@ -116,6 +116,17 @@ export const links = [
 export const socials = [
 
   {
+    label: "Facebook",
+    icon: "FacebookIcon",
+    href:"https://www.facebook.com/EchangyExchange/" //  "https://twitter.com/goosedefi",
+  },
+  
+  {
+    label: "Medium",
+    icon: "MediumIcon",
+    href: "https://medium.com/@EchangyExchange" // "https://www.reddit.com/r/GooseFinanceofficial",
+  },
+  {
     label: "Twitter",
     icon: "TwitterIcon",
     href:"https://twitter.com/EchangyExchange" //  "https://twitter.com/goosedefi",
